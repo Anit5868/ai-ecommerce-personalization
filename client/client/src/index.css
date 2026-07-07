@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  /* Neutral — theme background handled by .app.light / .app.dark in App.css */
+  background: #0f0f0f;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1f2937;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* Prevent hover lift on disabled buttons */
+button:disabled:hover {
+  transform: none;
+}
+
+textarea {
+  transition: all 0.3s ease;
+}
