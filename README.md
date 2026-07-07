@@ -56,17 +56,24 @@ This application processes a customer's shopping activity and uses **Google Gemi
 * Gemini 2.5 Flash
 
 ---
-
-# 📂 Project Structure
-
-```text
 Sample/
 │
-├── Client/
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│   └── assets/
+├── client/
+│   └── client/
+│       ├── public/
+│       ├── src/
+│       │   ├── assets/
+│       │   ├── App.css
+│       │   ├── App.jsx
+│       │   ├── index.css
+│       │   └── main.jsx
+│       │
+│       ├── index.html
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── vite.config.js
+│       ├── eslint.config.js
+│       └── README.md
 │
 ├── Server/
 │   ├── app.js
@@ -76,7 +83,6 @@ Sample/
 │   └── node_modules/
 │
 └── README.md
-```
 
 ---
 
