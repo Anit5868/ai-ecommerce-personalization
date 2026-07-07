@@ -56,6 +56,9 @@ This application processes a customer's shopping activity and uses **Google Gemi
 * Gemini 2.5 Flash
 
 ---
+Structure.....................................
+
+
 Sample/
 │
 ├── client/
@@ -83,6 +86,8 @@ Sample/
 │   └── node_modules/
 │
 └── README.md
+
+
 
 ---
 
